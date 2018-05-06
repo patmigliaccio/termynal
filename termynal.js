@@ -4,14 +4,14 @@
  * async/await.
  *
  * @author Ines Montani <ines@ines.io>
- * @version 0.0.1
+ * @version 0.0.2
  * @license MIT
  */
 
 'use strict';
 
 /** Generate a terminal widget. */
-class Termynal {
+export default class Termynal {
     /**
      * Construct the widget's settings.
      * @param {(string|Node)=} container - Query selector or container element.
