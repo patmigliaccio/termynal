@@ -1,12 +1,17 @@
 {
   "name": "termynal",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A lightweight and modern animated terminal window.",
   "main": "termynal.js",
   "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ines/termynal.git"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
   },
   "author": "Ines Montani <ines@ines.io>",
   "contributors": [
